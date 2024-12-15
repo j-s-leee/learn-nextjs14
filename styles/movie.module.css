@@ -1,0 +1,21 @@
+.movie {
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    place-items: center;
+    gap: 20px;
+    cursor: pointer;
+    max-width: 300px;
+}
+
+.movie img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    transition: ease-in-out 200ms;
+}
+
+.movie img:hover {
+    opacity: 0.7;
+    scale: 1.1;
+    transition: ease-in-out 400ms;
+}

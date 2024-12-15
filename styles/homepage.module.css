@@ -1,0 +1,7 @@
+.homepage {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 0 auto;
+    max-width: 90%;
+    gap: 20px;
+}
